@@ -62,11 +62,14 @@ class HomePage extends StatelessWidget {
                       width: 100,
                       height: 100,
                       child: Text('Nambahin widget, nyobak2'),
-                    ),Container(
-                      color: Colors.purple,
-                      width: 100,
-                      height: 100,
-                      child: Text('Nambahin widget, nyobak2'),
+                    ),Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        color: Colors.purple,
+                        width: 100,
+                        height: 100,
+                        child: Text('Nambahin widget, nyobak2'),
+                      ),
                     ),Container(
                       color: Colors.purple,
                       width: 100,
