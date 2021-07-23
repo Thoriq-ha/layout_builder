@@ -57,6 +57,12 @@ class HomePage extends StatelessWidget {
                       style: TextStyle(color: Colors.white, fontSize: 18),
                       textAlign: TextAlign.center,
                     ),
+                    Container(
+                      color: Colors.purple,
+                      width: 100,
+                      height: 100,
+                      child: Text('Nambahin widget'),
+                    )
                   ],
                 );
               },
