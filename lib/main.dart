@@ -72,7 +72,15 @@ class HomePage extends StatelessWidget {
                       height: 100,
                       child: Text('Nambahin widget,tanpa add'),
                     ),
-                   //hapus pull
+                    Container(
+                      color: Colors.purple,
+                      width: 100,
+                      height: 100,
+                      child: Text('Pull'),
+                    ),
+                    Container(
+                      child: Text('Pull2'),
+                    )
                   ],
                 );
               },
