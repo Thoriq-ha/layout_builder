@@ -81,7 +81,7 @@ class HomePage extends StatelessWidget {
                     Container(
                       child: Text('Pull2'),
                     ), Container(
-                      child: Text('Pull from github'),
+                      child: Text('Pull from github2'),
                     )
                   ],
                 );
