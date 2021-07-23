@@ -65,11 +65,18 @@ class HomePage extends StatelessWidget {
                         height: 100,
                         child: Text('Nambahin widget, nyobak2'),
                       ),
-                    ),Container(
+                    ),
+                    Container(
                       color: Colors.purple,
                       width: 100,
                       height: 100,
                       child: Text('Nambahin widget,tanpa add'),
+                    ),
+                    Container(
+                      color: Colors.purple,
+                      width: 100,
+                      height: 100,
+                      child: Text('Pull'),
                     )
                   ],
                 );
